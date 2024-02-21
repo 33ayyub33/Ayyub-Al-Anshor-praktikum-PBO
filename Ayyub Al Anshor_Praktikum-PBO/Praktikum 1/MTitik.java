@@ -1,3 +1,4 @@
+
 class MTitik
 {
 		public static void main(String[] args)
@@ -25,7 +26,7 @@ class MTitik
 
 			System.out.println("Jumlah Objek Titik : " + Titik.getCounter());
 			System.out.println("t1(" + t1.getAbsis() + ", " + t1.getOrdinat() + ")");
-			System.out.println("t1(" + t2.getAbsis() + ", " + t2.getOrdinat() + ")");
-			System.out.println("t1(" + t3.getAbsis() + ", " + t3.getOrdinat() + ")");
+			System.out.println("t2(" + t2.getAbsis() + ", " + t2.getOrdinat() + ")");
+			System.out.println("t3(" + t3.getAbsis() + ", " + t3.getOrdinat() + ")");
 		}
 }
