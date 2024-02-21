@@ -1,3 +1,10 @@
+/**
+* File		:Titik.java 21/2/2024
+* Nama Penulis	:Ayyub Al Anshor
+* NIM		:24060122130054
+* Deskripsi	:Class yang berisi main dari Titik
+* Tanggal	:Rabu, 21 Februari 2024
+*/
 class Titik
 {
 	double absis, ordinat;
