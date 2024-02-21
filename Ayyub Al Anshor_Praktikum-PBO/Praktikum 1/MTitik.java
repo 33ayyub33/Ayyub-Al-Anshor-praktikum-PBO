@@ -1,4 +1,10 @@
-
+/**
+* File		:MTitik.java 21/2/2024
+* Nama Penulis	:Ayyub Al Anshor
+* NIM		:24060122130054
+* Deskripsi	:Main dari Titik
+* Tanggal	:Rabu, 21 Februari 2024
+*/
 class MTitik
 {
 		public static void main(String[] args)
