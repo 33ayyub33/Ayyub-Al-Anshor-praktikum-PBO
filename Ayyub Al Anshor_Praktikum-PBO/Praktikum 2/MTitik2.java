@@ -34,5 +34,33 @@ class MTitik2
         //Refleksi
         t1.refleksiX();
         System.out.println("Hasil dari refleksi X pada t1 adalah :" + t1.getAbsis() + "," + t1.getOrdinat());
+
+        //Jarak Pusat
+        double jarak = t1.getJarakPusat();
+        System.out.println("Jarak pusat t1 adalah : " + jarak);
+
+        //getRefleksiX
+        Titik2 titikRefleksiX = t1.getRefleksiX();
+        System.out.println("Titik getrefleksi X: (" + titikRefleksiX.getAbsis() + "," + titikRefleksiX.getOrdinat() + ")");
+
+        //getRefleksiY
+        Titik2 titikRefleksiY = t1.getRefleksiY();
+        System.out.println("Titik getrefleksi Y: (" + titikRefleksiY.getAbsis() + "," + titikRefleksiY.getOrdinat() + ")");
+
+        //Menampilkan panjang garis
+        System.out.println("Panjang garis g1 : " + g1.getPanjang());
+
+        //Menampilkan gradien garis
+        System.out.println("Gradien garis g1 : " + g1.getGradien());
+
+        //getRefleksiY
+        Garis garisRefleksiY = g1.getRefleksiY();
+        System.out.println("Garis refleksi Y:");
+        System.out.println("Titik awal yaitu: (" + garisRefleksiY.getTitikAwal().getAbsis() + "," + garisRefleksiY.getTitikAwal().getOrdinat() + ")");
+        System.out.println("Titik akhir yaitu: (" + garisRefleksiY.getTitikAkhir().getAbsis() + "," + garisRefleksiY.getTitikAkhir().getOrdinat() + ")");
+
+        //isTegakLurus
+        Garis g2 = new Garis(t1, new Titik2(2, 7));   //Membuat garis baru untuk dibandingkan
+        System.out.println("Apakah garis g1 tegak lurus dengan garis g2? " + g1.isTegakLurus(g2));
     }
 }
