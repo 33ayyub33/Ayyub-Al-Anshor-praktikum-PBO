@@ -49,3 +49,8 @@ public class Garis {
         return Math.abs(this.getGradien() * g.getGradien()) == 1;
     }
 }
+
+/*kesimpulan : bahwa akses modifier berfungsi untuk memberi ijin/akses untuk melihat da memanggil detail implementasi dari suatu objek
+        jika acces modifier bersifat private maka detail implementasi objek tersebut tidak dapat dilihat/akses(information hiding), 
+        sedangkan public berarti detail implementasi suatu objek dapat dilihat/akses. jika detail tersebut tidak dapat diakses maka ketik
+        dipanggil di Main akan eror*/
