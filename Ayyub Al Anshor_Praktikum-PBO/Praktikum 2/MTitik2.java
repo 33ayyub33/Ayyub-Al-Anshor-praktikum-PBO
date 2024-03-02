@@ -1,3 +1,6 @@
+//Nama  : Ayyub Al Anshor
+//NIM   : 24060122130054
+//LAB   : C2
 class MTitik2
 {
     public static void main(String[] args)
@@ -27,10 +30,6 @@ class MTitik2
         System.out.println("t1(" + t2.getAbsis() + ", " + t2.getOrdinat() + ")");
         System.out.println("t1(" + t3.getAbsis() + ", " + t3.getOrdinat() + ")");
 
-        //Garis
-        System.out.println("Titik awal Garis : (" + g1.getTitikAwal().getAbsis()+ "," +g1.getTitikAwal().getOrdinat()+ ")");
-        System.out.println("Titik akhir Garis : (" + g1.getTitikAkhir().getAbsis()+ "," +g1.getTitikAkhir().getOrdinat()+ ")");
-
         //Refleksi
         t1.refleksiX();
         System.out.println("Hasil dari refleksi X pada t1 adalah :" + t1.getAbsis() + "," + t1.getOrdinat());
@@ -46,26 +45,6 @@ class MTitik2
         //getRefleksiY
         Titik2 titikRefleksiY = t1.getRefleksiY();
         System.out.println("Titik getrefleksi Y: (" + titikRefleksiY.getAbsis() + "," + titikRefleksiY.getOrdinat() + ")");
-
-        //Menampilkan panjang garis
-        System.out.println("Panjang garis g1 : " + g1.getPanjang());
-
-        //Menampilkan gradien garis
-        System.out.println("Gradien garis g1 : " + g1.getGradien());
-
-        //getRefleksiY
-        Garis garisRefleksiY = g1.getRefleksiY();
-        System.out.println("Garis refleksi Y:");
-        System.out.println("Titik awal yaitu: (" + garisRefleksiY.getTitikAwal().getAbsis() + "," + garisRefleksiY.getTitikAwal().getOrdinat() + ")");
-        System.out.println("Titik akhir yaitu: (" + garisRefleksiY.getTitikAkhir().getAbsis() + "," + garisRefleksiY.getTitikAkhir().getOrdinat() + ")");
-
-        //isTegakLurus
-        Garis g2 = new Garis(t1, new Titik2(2, 7));   //Membuat garis baru untuk dibandingkan
-        System.out.println("Apakah garis g1 tegak lurus dengan garis g2? " + g1.isTegakLurus(g2));
+        
     }
 }
-
-/*kesimpulan : bahwa akses modifier berfungsi untuk memberi ijin/akses untuk melihat da memanggil detail implementasi dari suatu objek
-        jika acces modifier bersifat private maka detail implementasi objek tersebut tidak dapat dilihat/akses(information hiding), 
-        sedangkan public berarti detail implementasi suatu objek dapat dilihat/akses. jika detail tersebut tidak dapat diakses maka ketik
-        dipanggil di Main akan eror*/
