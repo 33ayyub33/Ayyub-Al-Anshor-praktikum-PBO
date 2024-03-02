@@ -64,3 +64,8 @@ class MTitik2
         System.out.println("Apakah garis g1 tegak lurus dengan garis g2? " + g1.isTegakLurus(g2));
     }
 }
+
+/*kesimpulan : bahwa akses modifier berfungsi untuk memberi ijin/akses untuk melihat da memanggil detail implementasi dari suatu objek
+        jika acces modifier bersifat private maka detail implementasi objek tersebut tidak dapat dilihat/akses(information hiding), 
+        sedangkan public berarti detail implementasi suatu objek dapat dilihat/akses. jika detail tersebut tidak dapat diakses maka ketik
+        dipanggil di Main akan eror*/
